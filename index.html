@@ -1,23 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="input.css">
-    <title>Template</title>
-</head>
-<body>
-    <div class="container">
-       <header class="flex flex-col justify-between">
-           <ul>
-               <li>d</li>
-               <li>d1</li>
-               <li>d2</li>
-           </ul>
-       </header>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="input.css">
+  <title>Login Demo</title>
+</head>
+
+<body class="bg-gray-100">
+  <div class="container w-1/3 m-auto items-center flex justify-between mt-36 h-80">
+    <div class="shadow-lg bg-white ">
+      <h1 class="text-center pt-5 pb-5 font-bold">Sign in Your Wibsite</h1>
+
+      <button
+        class="py-2 focus:outline-none rounded-md flex text-white m-5 w-96 hover:bg-blue-700 bg-blue-800 items-center">
+        <svg class="w-7 h-7 ml-1 inline text-white mr-16  fill-current" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24">
+          <path
+            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+        </svg>
+
+        <span class=" font-bold"> Continue With Facebook</span>
+      </button>
+      <button
+        class="py-2 focus:outline-none rounded-md border hover:bg-gray-50 items-center text-black m-5 w-96 bg-white flex ">
+        <svg class="h-5 w-5 ml-0 mr-24 text-red-500 inline" width="22" height="22" viewBox="0 0 22 22" stroke-width="2"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" />
+          <path d="M17.788 5.108A9 9 0 1021 12h-8" />
+        </svg>
+        <span class="font-bold text-gray-400">Continue With Google</span>
+
+      </button>
+      <button
+        class="py-2 focus:outline-none rounded-md border hover:bg-gray-50 items-center text-black m-5 w-96 bg-white flex ">
+        <svg class="h-6 w-6ml-1 mr-24 text-black-500 inline" width="22" height="22" viewBox="0 0 22 22" stroke-width="2"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" />
+          <path
+            d="M9 7c-3 0-4 3-4 5.5 0 3 2 7.5 4 7.5 1.088-.046 1.679-.5 3-.5 1.312 0 1.5.5 3 .5s4-3 4-5c-.028-.01-2.472-.403-2.5-3-.019-2.17 2.416-2.954 2.5-3-1.023-1.492-2.951-1.963-3.5-2-1.433-.111-2.83 1-3.5 1-.68 0-1.9-1-3-1z" />
+          <path d="M12 4a2 2 0 0 0 2 -2a2 2 0 0 0 -2 2" />
+        </svg>
+        <span class="font-bold text-gray-400">Continue With Apple</span>
+      </button>
+
+      <span class="flex flex-row">
+        <hr class="w-44 ml-4 mt-3"> <span class="mx-1">OR</span>
+        <hr class="w-44  mt-3">
+      </span>
+      <input type="text" placeholder="Username"
+        class="pl-4 hover:border-gray-400 focus:outline-none border flex border-1 py-2 rounded-md  m-4 w-96">
+      <input type="password" placeholder="Password"
+        class="pl-4 hover:border-gray-400 focus:outline-none border flex border-1 py-2 rounded-md  m-4 w-96">
+
+      <button
+        class="py-2 focus:outline-none rounded-md border items-center m-5 w-96  flex flex-col hover:bg-purple-500  bg-purple-400 text-white font-bold">Continue</button>
+
+      <label for="" class="flex flex-row m-5 w-96">
+
+        <input class=" focus:outline-none outline-none  bg-white cursor-pointer hover:border-gray-400 w-5 h-5 mr-1 mt-1"
+          type="checkbox" name="" id="">
+        <span class=" text-gray-400">Remember me</span>
+        <span class="block ml-24 text-green-600 cursor-pointer hover:underline mb-1">Forgot Password?</span>
+
+      </label>
+      <hr>
+      <div class="my-3">
+        <span class="m-20 my-4 w-96 text-gray-400">If you not like this post yet? <span
+            class="text-green-600 cursor-pointer hover:underline">Like now</span></span>
+      </div>
     </div>
-    
+
+  </div>‌
 </body>
+
 </html>
